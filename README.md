@@ -1,7 +1,8 @@
 # Habit Tracker
 
 > A sleek, minimalist weekly habit tracker built with React, TypeScript, and Tailwind CSS to help you build consistency and maintain daily streaks.
-> Guide: [Habit Tracker - Web Dev Simplified](https://www.youtube.com/watch?v=9aTRnV6g0eQ)
+
+- Guide: [Habit Tracker - Web Dev Simplified](https://www.youtube.com/watch?v=9aTRnV6g0eQ)
 
 ---
 
@@ -10,6 +11,7 @@
 **Habit Tracker** is a lightweight web application designed for tracking daily habits across a weekly calendar view. It enables users to create custom habits, check off daily completions, monitor consecutive day streaks, and browse past weeks—all persisted automatically in the browser's `localStorage`.
 
 ### Key Features
+
 - **Weekly Calendar View**: View and toggle habit completions across a Monday–Sunday week layout (`date-fns`).
 - **Streak Tracking**: Automatically calculates and displays your active daily streak (`🔥`) for each habit.
 - **Daily Progress Counter**: Shows how many habits you have completed today out of your total list (`X / Y done today`).
@@ -17,6 +19,7 @@
 - **Persistent Storage**: Habits and completion history are saved to `localStorage` via a custom [`useLocalStorage`](src/hooks/useLocalStorage.ts) hook.
 
 ### Tech Stack
+
 - **Frontend**: React 19, TypeScript
 - **Styling**: Tailwind CSS v4, `tailwind-merge`
 - **Date Utilities**: `date-fns`
@@ -26,8 +29,6 @@
 
 ## 📸 Visual Demo / Screenshot
 
-> _Replace `./public/screenshot.png` below with an actual screenshot or GIF of the running application._
-
 ![Habit Tracker Screenshot](./public/screenshot.png)
 
 ---
@@ -35,23 +36,27 @@
 ## 🛠️ Installation Guide
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - `npm` (included with Node.js)
 
 ### Steps
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repository-url>
    cd HabitTracker
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -60,19 +65,20 @@
    Navigate to the local URL shown in your terminal (typically `http://localhost:5173`).
 
 ### Available Scripts
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Starts the Vite development server with Hot Module Replacement (HMR) |
-| `npm run build` | Type-checks with TypeScript and bundles the app for production |
-| `npm run preview` | Locally previews the production build |
-| `npm run lint` | Runs `oxlint` to check for code quality and React rules |
+
+| Command           | Description                                                          |
+| :---------------- | :------------------------------------------------------------------- |
+| `npm run dev`     | Starts the Vite development server with Hot Module Replacement (HMR) |
+| `npm run build`   | Type-checks with TypeScript and bundles the app for production       |
+| `npm run preview` | Locally previews the production build                                |
+| `npm run lint`    | Runs `oxlint` to check for code quality and React rules              |
 
 ---
 
 ## 🚀 Usage Instructions
 
 1. **Add a New Habit**
-   - Type the name of a habit (e.g., *"Drink 2L of water"*, *"Morning run"*) into the **New Habit...** input field at the top of the page.
+   - Type the name of a habit (e.g., _"Drink 2L of water"_, _"Morning run"_) into the **New Habit...** input field at the top of the page.
    - Click **Add Habit** (or press `Enter`).
 
 2. **Log Daily Completions**
@@ -93,23 +99,27 @@
 ## 🛠️ Installation Guide
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - `npm` (included with Node.js)
 
 ### Steps
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repository-url>
    cd HabitTracker
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -118,19 +128,20 @@
    Navigate to the local URL shown in your terminal (typically `http://localhost:5173`).
 
 ### Available Scripts
-| Command | Description |
-| :--- | :--- |
-| `npm run dev` | Starts the Vite development server with Hot Module Replacement (HMR) |
-| `npm run build` | Type-checks with TypeScript and bundles the app for production |
-| `npm run preview` | Locally previews the production build |
-| `npm run lint` | Runs `oxlint` to check for code quality and React rules |
+
+| Command           | Description                                                          |
+| :---------------- | :------------------------------------------------------------------- |
+| `npm run dev`     | Starts the Vite development server with Hot Module Replacement (HMR) |
+| `npm run build`   | Type-checks with TypeScript and bundles the app for production       |
+| `npm run preview` | Locally previews the production build                                |
+| `npm run lint`    | Runs `oxlint` to check for code quality and React rules              |
 
 ---
 
 ## 🚀 Usage Instructions
 
 1. **Add a New Habit**
-   - Type the name of a habit (e.g., *"Drink 2L of water"*, *"Morning run"*) into the **New Habit...** input field at the top of the page.
+   - Type the name of a habit (e.g., _"Drink 2L of water"_, _"Morning run"_) into the **New Habit...** input field at the top of the page.
    - Click **Add Habit** (or press `Enter`).
 
 2. **Log Daily Completions**
@@ -147,4 +158,3 @@
 
 5. **Delete a Habit**
    - Click the **Delete** button on the top-right of any habit card to permanently remove it from your tracker.
-
